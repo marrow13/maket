@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot');
+url('../fonts/fontawesome-webfont.woff') format('woff'),
+url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    width: 38px;
+    text-indent: -99999px;
+    height: 38px;
+    border-radius: 4px;
+    opacity: .6;
+    background: #107fc9 url(../img/up-scroll.png) no-repeat center;
+}
+
+html, body {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    src: url('../fonts/Cuprum-Bold.ttf');
+}
+
+
+
+.p2{
+    color: white;
+    font-family: Cuprum;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height:0.9em;
+}
+
+.p3{
+    color: white;
+    font-family:sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height:1em;
+}
+
+.text-about{
+    margin: 30px;
+    text-align: justify;
+
+}
+
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -3em;
+
+}
+
+.header{
+
+    width: 100%;
+    background-color: rgba(115, 74, 18, 0.97);
+    padding-bottom: 2%;
+
+}
+
+.logo{
+    margin-left: 5%;
+    padding-top: 7px;
+
+}
+
+.footer, .push {
+    height: 3em;
+}
+
+.footer{
+    background-color:#FF9000;
+}
+
